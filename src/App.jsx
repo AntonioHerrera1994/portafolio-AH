@@ -97,8 +97,8 @@ function App() {
     </div>
     <div className="bg-gray-800 p-6 rounded-lg shadow-lg">
       <h3 className="text-xl font-semibold">Dashboard Admin</h3>
-      <p className="text-gray-400 mt-2">Panel de administración responsivo usando Vue y Chart.js con autenticación.</p>
-      <a href="#" className="text-cyan-400 text-sm underline mt-2 inline-block">Ver Proyecto</a>
+      <p className="text-gray-400 mt-2">Proyectos personales que he realizado con tecnológias tales como Astro y React.</p>
+      <Link to="/projectpersonal" className="text-cyan-400 text-sm underline mt-2 inline-block">Ver Proyectos</Link>
     </div>
   </div>
 </section>
