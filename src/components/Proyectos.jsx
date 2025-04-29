@@ -3,9 +3,9 @@ import { motion, AnimatePresence } from "framer-motion";
 import { Link } from 'react-router-dom'
 
 const projects = [
-  { id: 1, title: "Dashboard Analytics en React", image: "../src/assets/proyectosp/pp1.png", link: "https://analytics-demov1.netlify.app/" },
-  { id: 2, title: "Web Tecnológica en Astro", image: "../src/assets/proyectosp/pp2.png", link: "https://tec-landing.netlify.app/" },
-  { id: 3, title: "Web de noticias en Astro y React", image: "../src/assets/proyectosp/pp3.png", link: "https://tec-news-dev.netlify.app/" },
+  { id: 1, title: "Dashboard Analytics en React", image: "proyectosp/pp1.png", link: "https://analytics-demov1.netlify.app/" },
+  { id: 2, title: "Web Tecnológica en Astro", image: "proyectosp/pp2.png", link: "https://tec-landing.netlify.app/" },
+  { id: 3, title: "Web de noticias en Astro y React", image: "proyectosp/pp3.png", link: "https://tec-news-dev.netlify.app/" },
 ];
 
 const itemsPerPage = 6;
