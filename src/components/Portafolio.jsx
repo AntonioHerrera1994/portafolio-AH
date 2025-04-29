@@ -46,10 +46,14 @@ function ProjectGallery() {
   );
 
   return (
-    <div className="h-screen flex flex-col justify-center items-center text-center bg-gradient-to-br from-gray-900 to-black">
+    <div className="min-h-screen flex flex-col items-center text-center bg-gradient-to-br from-gray-900 to-black py-10 px-4">
+      {/* Botón Regresar */}
+      <Link to="/" className="text-black mb-8 bg-white rounded-md px-5 py-2">
+        Regresar
+      </Link>
+  
       {/* Galería */}
-      <Link to="/" className="text-black mt-18 bg-white rounded-md px-5 py-2" >Regresar</Link>
-      <div className="grid md:grid-cols-3 gap-8 mb-8 mt-15">
+      <div className="grid md:grid-cols-3 gap-8 mb-8 w-full max-w-6xl">
         <AnimatePresence mode="wait">
           {currentProjects.map((project) => (
             <motion.a
@@ -57,7 +61,7 @@ function ProjectGallery() {
               href={project.link}
               target="_blank"
               rel="noopener noreferrer"
-              className=" rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-all"
+              className="rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-all"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               exit={{ opacity: 0, y: -20 }}
@@ -68,14 +72,14 @@ function ProjectGallery() {
                 alt={project.title}
                 className="w-full h-48 object-cover"
               />
-              <div className="p-4 text-center font-normal text-gray-700 text-white">
+              <div className="p-4 text-white font-normal">
                 {project.title}
               </div>
             </motion.a>
           ))}
         </AnimatePresence>
       </div>
-
+  
       {/* Paginación */}
       <div className="flex gap-4">
         <button
@@ -95,6 +99,7 @@ function ProjectGallery() {
       </div>
     </div>
   );
+  
 }
 
 export default ProjectGallery;
