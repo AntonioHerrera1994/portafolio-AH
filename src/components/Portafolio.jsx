@@ -22,6 +22,7 @@ const projects = [
   { id: 17, title: "Baja Box", image: "../src/assets/proyectos/18.png", link: "https://bajabox.com.mx/" },
   { id: 18, title: "Gyn & Med", image: "../src/assets/proyectos/19.png", link: "https://gynandmed.com/" },
   { id: 19, title: "La Recta Coworking", image: "../src/assets/proyectos/20.png", link: "https://larectacoworking.com/" },
+  { id: 20, title: "Vikingdev", image: "../src/assets/proyectos/21.png", link: "http://vikingdevtj.com/" },
 ];
 
 const itemsPerPage = 6;
