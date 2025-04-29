@@ -113,7 +113,7 @@ function App() {
 
   </div>
   <div class="mt-8">
-    <a href="../src/assets/Antonio H - CV.pdf" download className="text-sm text-gray-400 underline">Descargar CV PDF</a>
+    <a href="Antonio H - CV.pdf" download className="text-sm text-gray-400 underline">Descargar CV PDF</a>
   </div>
 </section>
 
