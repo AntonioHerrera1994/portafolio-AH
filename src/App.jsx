@@ -86,7 +86,7 @@ function App() {
 </section>
 
 <section id="projects" className="py-16 px-6 max-w-4xl mx-auto" data-aos="fade-up">
-  <h2 className="text-3xl font-semibold mb-8">Proyectos Destacados</h2>
+  <h2 className="text-3xl font-semibold mb-8">Portafolio</h2>
   <div className="grid gap-6 md:grid-cols-2">
     <div className="bg-gray-800 p-6 rounded-lg shadow-lg">
       <h3 className="text-xl font-semibold">Portafolio Profesional</h3>

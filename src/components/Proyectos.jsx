@@ -29,7 +29,7 @@ function ProjectPersonal() {
   );
 
   return (
-    <div className="h-screen flex flex-col justify-center items-center text-center bg-gradient-to-br from-gray-900 to-black">
+    <div className="min-h-screen flex flex-col items-center text-center bg-gradient-to-br from-gray-900 to-black py-10 px-4">
       {/* Galería */}
       <Link to="/" className="text-black mt-18 bg-white rounded-md px-5 py-2" >Regresar</Link>
       <div className="grid md:grid-cols-3 gap-8 mb-8 mt-15">
