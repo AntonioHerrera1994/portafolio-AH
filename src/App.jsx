@@ -19,7 +19,7 @@ function App() {
   />
   <h1 className="text-5xl font-bold mb-4" data-aos="fade-down">José Antonio Herrera Quintero</h1>
   <p className="text-xl text-gray-400 mb-6" data-aos="fade-up">Frontend Developer | Web Developer </p>
-  <a href="#contact" class="px-6 py-2 bg-cyan-500 text-white rounded-full hover:bg-cyan-400 transition" data-aos="fade-up" data-aos-delay="300">Contáctame</a>
+  <a href="#contact" class="px-6 py-2 bg-cyan-500 text-white rounded-full hover:bg-cyan-400 transition" data-aos="fade-up" data-aos-delay="300">Portafolio</a>
 </header>
 
 
